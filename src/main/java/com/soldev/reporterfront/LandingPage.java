@@ -19,7 +19,7 @@ public class LandingPage {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String login() {
         return "login";
-    }    
+    }
     
     
 }
